@@ -1,0 +1,35 @@
+# Python environments and bytecode
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local datasets and generated training/evaluation outputs
+/data/images/
+/runs/
+/results/
+/tmp_cifar/
+
+# Model checkpoints and training logs
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.log
+
+# Local tooling and operating-system files
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db

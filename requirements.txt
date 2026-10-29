@@ -1,0 +1,9 @@
+torch>=2.1
+torchvision>=0.16
+numpy
+scikit-image>=0.21
+matplotlib
+Pillow
+streamlit>=1.30
+pandas
+tqdm
